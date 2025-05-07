@@ -1,0 +1,31 @@
+{
+  "name": "@dword-design/devcontainer-image",
+  "version": "1.0.0",
+  "repository": "dword-design/devcontainer-image",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "depcheck": "base depcheck",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "test": "base test"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^11.3.10",
+    "@dword-design/base-config-devcontainer-image": "^1.0.0"
+  },
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
