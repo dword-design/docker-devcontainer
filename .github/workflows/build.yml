@@ -41,7 +41,7 @@ jobs:
         name: Push changed files
         run: pnpm dw-ci push-changed-files
       - if: github.ref == 'refs/heads/master'
-        run: npx @devcontainers/cli build --workspace-folder . --image-name
+        run: npx @devcontainers/cli build --workspace-folder . --config index.json --image-name
           ghcr.io/dword-design/devcontainer:latest
       - env:
           DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
