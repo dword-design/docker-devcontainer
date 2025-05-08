@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/docker-devcontainer/compare/v1.0.0...v1.0.1) (2025-05-08)
+
+
+### Bug Fixes
+
+* fo ([020458d](https://github.com/dword-design/docker-devcontainer/commit/020458d1d18d2b67204bd246d00508b57b1d007c))
+
 # 1.0.0 (2025-05-08)
 
 
