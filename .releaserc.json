@@ -19,8 +19,7 @@
     [
       "semantic-release-docker",
       {
-        "name": "dword-design/devcontainer",
-        "registryUrl": "ghcr.io"
+        "name": "dworddesign/devcontainer"
       }
     ]
   ]

@@ -1,22 +1,22 @@
 <!-- TITLE/ -->
-# @dword-design/devcontainer-image
+# @dword-design/docker-devcontainer
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
   <p>
-    <img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/devcontainer-image/actions">
+    <img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/docker-devcontainer/actions">
       <img
-        src="https://github.com/dword-design/devcontainer-image/workflows/build/badge.svg"
+        src="https://github.com/dword-design/docker-devcontainer/workflows/build/badge.svg"
         alt="Build status"
       >
-    </a><a href="https://codecov.io/gh/dword-design/devcontainer-image">
+    </a><a href="https://codecov.io/gh/dword-design/docker-devcontainer">
       <img
-        src="https://codecov.io/gh/dword-design/devcontainer-image/branch/master/graph/badge.svg"
+        src="https://codecov.io/gh/dword-design/docker-devcontainer/branch/master/graph/badge.svg"
         alt="Coverage status"
       >
-    </a><a href="https://david-dm.org/dword-design/devcontainer-image">
-      <img src="https://img.shields.io/david/dword-design/devcontainer-image" alt="Dependency status">
-    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/dword-design/devcontainer-image">
+    </a><a href="https://david-dm.org/dword-design/docker-devcontainer">
+      <img src="https://img.shields.io/david/dword-design/docker-devcontainer" alt="Dependency status">
+    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/dword-design/docker-devcontainer">
       <img
         src="https://gitpod.io/button/open-in-gitpod.svg"
         alt="Open in Gitpod"
@@ -53,17 +53,17 @@
 
 ```bash
 # npm
-$ npm install @dword-design/devcontainer-image
+$ npm install @dword-design/docker-devcontainer
 
 # Yarn
-$ yarn add @dword-design/devcontainer-image
+$ yarn add @dword-design/docker-devcontainer
 ```
 <!-- /INSTALL -->
 
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/devcontainer-image/issues) or a [pull request](https://github.com/dword-design/devcontainer-image/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/docker-devcontainer/issues) or a [pull request](https://github.com/dword-design/docker-devcontainer/pulls)! ⚙️
 
 ## Support
 

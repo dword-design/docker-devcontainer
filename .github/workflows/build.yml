@@ -41,11 +41,10 @@ jobs:
         name: Push changed files
         run: pnpm dw-ci push-changed-files
       - if: github.ref == 'refs/heads/master'
-        run: npx @devcontainers/cli build --workspace-folder . --config index.json --image-name
-          ghcr.io/dword-design/devcontainer:latest
+        run: pnpm build
       - env:
-          DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-          DOCKER_USERNAME: ${{ github.actor }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: github.ref == 'refs/heads/master'
         name: Release

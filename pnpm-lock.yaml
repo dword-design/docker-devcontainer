@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@dword-design/base':
         specifier: ^11.3.10
-        version: 11.3.10(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)
+        version: 11.3.11(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)
       '@dword-design/base-config-devcontainer-image':
-        specifier: ^1.0.3
-        version: 1.0.3(semantic-release@22.0.12(typescript@5.8.3))
+        specifier: ^1.0.4
+        version: 1.0.4(semantic-release@22.0.12(typescript@5.8.3))
 
 packages:
 
@@ -718,6 +718,11 @@ packages:
     resolution: {integrity: sha512-LRjP623jPyf3Poyfb0ohMj8I3ORyBDOwXAgxxVPbSD0unJuW2mJWeiRfaQinjtccMqC5Wy1HOMfa4btKjbNxbg==}
     engines: {node: '>=v18'}
 
+  '@devcontainers/cli@0.76.0':
+    resolution: {integrity: sha512-LeXAmduPfpr3dGp7A6536a9drqUOxr5qJ96eF/bnVgeJHapFFPP0ABmcZlF/gCNHwATIh29B0f3rGZJpgLVG/g==}
+    engines: {node: ^16.13.0 || >=18.0.0}
+    hasBin: true
+
   '@dword-design/babel-config@4.2.1':
     resolution: {integrity: sha512-RFGQfX00S7JaGHJUzJUU3W/4hNKloWLpY9CMG8hvSSvY9VjaACJ2Ews1YVWBpqVSIjoxHEfoUo99PpNIIPygEg==}
     engines: {node: '>=18'}
@@ -732,16 +737,16 @@ packages:
     peerDependencies:
       '@babel/core': '*'
 
-  '@dword-design/base-config-devcontainer-image@1.0.3':
-    resolution: {integrity: sha512-KUvWMhAWl5fG2tniSS9/L3eE5/v3yCHeEWjNvBQqE/2gN1x4OJBw52KfIwkPN2liZQqFe3xL1ZQMxoYWb8QJIw==}
+  '@dword-design/base-config-devcontainer-image@1.0.4':
+    resolution: {integrity: sha512-1sg6rpoO8MDeG0znzBUWwwO6JdwA+gQUb4U7MLIcQ7PG2isld+QlEXbyGrKN504aAhVRzahjPzvo8GUhgnnzIA==}
     engines: {node: '>=18'}
 
   '@dword-design/base-config-node@3.0.2':
     resolution: {integrity: sha512-2DAHJgEbZAs8PHG7eBRQjgPj6ddsiBhmJHpAKs2d2IAffRctLQRpuIYcvByj2eTvKPfgWmaoFX/HJGblv35WLw==}
     engines: {node: '>=18'}
 
-  '@dword-design/base@11.3.10':
-    resolution: {integrity: sha512-orXJL/AdA6g/3jGmHVUNraU2trdezMO7kUCUVkAXmxd1JpKr54j+3jSB4WyyU30q3+NZvlRSwlzbI87zX4EfTQ==}
+  '@dword-design/base@11.3.11':
+    resolution: {integrity: sha512-Go0eb4Qk0RxDDm7VrJldiDNdn3zrVI4/DQBe1467BS/t5bpf6n9hEytmts6LwqcuUfd2gBkK5DUp87UIoMK6+Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2081,6 +2086,10 @@ packages:
     resolution: {integrity: sha512-ZUyiwo76W+DYnKsL3Kim6M/UOavPdBJgDYWOmuQhYaZvJH0AXAHbUNyEDtRbBra8wqqr686+63/0azfEk1ebUQ==}
     engines: {node: '>=10'}
     hasBin: true
+
+  depcheck-bin-name@1.0.1:
+    resolution: {integrity: sha512-fUo3JBv7kyefWaBIqruQ73zhkt+c9ZQ2pu/0i68MhP+NnNYHqZffEscy7YthIzf8rl9YrgiW4WaXfGrc+rlVXg==}
+    engines: {node: '>=18'}
 
   depcheck-detector-bin-name@1.0.2:
     resolution: {integrity: sha512-NCJ8B0De9ILI+ClVwqJn3J6Dj1TKM9xmAWXTGu/ThQePMpt83KXt1abed+ndBEV5AbnwGmU7PVx1jpDH69oklg==}
@@ -6687,6 +6696,8 @@ snapshots:
       chalk: 5.4.1
     optional: true
 
+  '@devcontainers/cli@0.76.0': {}
+
   '@dword-design/babel-config@4.2.1(@babel/core@7.27.1)':
     dependencies:
       '@babel/plugin-proposal-partial-application': 7.27.1(@babel/core@7.27.1)
@@ -6714,9 +6725,12 @@ snapshots:
     dependencies:
       '@babel/core': 7.27.1
 
-  '@dword-design/base-config-devcontainer-image@1.0.3(semantic-release@22.0.12(typescript@5.8.3))':
+  '@dword-design/base-config-devcontainer-image@1.0.4(semantic-release@22.0.12(typescript@5.8.3))':
     dependencies:
+      '@devcontainers/cli': 0.76.0
+      depcheck-bin-name: 1.0.1
       depcheck-package-name: 3.0.1
+      execa: 9.5.2
       load-pkg: 4.0.0
       parse-packagejson-name: 1.0.1
       semantic-release-docker: 2.2.0(semantic-release@22.0.12(typescript@5.8.3))
@@ -6739,7 +6753,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@dword-design/base@11.3.10(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)':
+  '@dword-design/base@11.3.11(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)':
     dependencies:
       '@commitlint/cli': 18.6.1(@types/node@22.15.15)(typescript@5.8.3)
       '@commitlint/config-conventional': 18.6.3
@@ -8557,6 +8571,10 @@ snapshots:
       minimist: 1.2.8
       path-starts-with: 2.0.1
       rimraf: 2.7.1
+
+  depcheck-bin-name@1.0.1:
+    dependencies:
+      tagged-template-noop: 2.1.1
 
   depcheck-detector-bin-name@1.0.2:
     dependencies:

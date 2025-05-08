@@ -5,7 +5,7 @@ tasks:
       echo "corepack enable" >> /home/gitpod/.bashrc
       echo "export COREPACK_ENABLE_DOWNLOAD_PROMPT=0" >> /home/gitpod/.bashrc
       gitpod-env-per-project >> /home/gitpod/.bashrc
-      echo "export PUPPETEER_CACHE_DIR=/workspace/devcontainer-image/node_modules/.cache/puppeteer" >> /home/gitpod/.bashrc
+      echo "export PUPPETEER_CACHE_DIR=/workspace/docker-devcontainer/node_modules/.cache/puppeteer" >> /home/gitpod/.bashrc
       echo "export PLAYWRIGHT_BROWSERS_PATH=0" >> /home/gitpod/.bashrc
       source /home/gitpod/.bashrc
     init: |-
