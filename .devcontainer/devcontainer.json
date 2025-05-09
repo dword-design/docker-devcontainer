@@ -1,4 +1,4 @@
 {
-  "image": "ghcr.io/dword-design/devcontainer:latest",
+  "image": "ghcr.io/dword-design/devcontainer:1.0.0",
   "postCreateCommand": "pnpm install --frozen-lockfile"
 }
