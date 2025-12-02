@@ -1,3 +1,14 @@
+## [1.0.2](https://github.com/dword-design/docker-devcontainer/compare/v1.0.1...v1.0.2) (2025-12-02)
+
+
+### Bug Fixes
+
+* disable moby ([e49a446](https://github.com/dword-design/docker-devcontainer/commit/e49a446711dc5893f821c78058bd4d0a7f74ccdc))
+* doc ([7cbf96f](https://github.com/dword-design/docker-devcontainer/commit/7cbf96f97b1d9d685221d66551dbfc4b6d8730ea))
+* fix dockerfile ([047d1ba](https://github.com/dword-design/docker-devcontainer/commit/047d1ba2791109afcfc66fbf62821473519f2ef9))
+* foo ([1abf9dc](https://github.com/dword-design/docker-devcontainer/commit/1abf9dc24ed4f61d2fc8d140e61becbf7f084d7a))
+* lock file maintenance ([#9](https://github.com/dword-design/docker-devcontainer/issues/9)) ([4fd5166](https://github.com/dword-design/docker-devcontainer/commit/4fd516626b3d45aa650d2b2ab9d8c2ab236f2dc5))
+
 ## [1.0.1](https://github.com/dword-design/docker-devcontainer/compare/v1.0.0...v1.0.1) (2025-05-08)
 
 
