@@ -3,7 +3,7 @@
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
-      "moby": false
+      "moby": false // https://github.com/devcontainers/features/issues/1494
     }
   },
   "image": "mcr.microsoft.com/devcontainers/javascript-node"
