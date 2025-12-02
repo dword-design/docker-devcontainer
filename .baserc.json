@@ -1,1 +1,4 @@
-"@dword-design/devcontainer-image"
+{
+  "depcheckConfig": { "ignoreMatches": ["@playwright/test"] },
+  "name": "@dword-design/devcontainer-image"
+}
