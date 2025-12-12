@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dword-design/docker-devcontainer/compare/v1.0.2...v1.1.0) (2025-12-12)
+
+
+### Features
+
+* add git lfs ([2ef8a7a](https://github.com/dword-design/docker-devcontainer/commit/2ef8a7af044bc88c0be6f28e2b2fc635342c36df))
+
 ## [1.0.2](https://github.com/dword-design/docker-devcontainer/compare/v1.0.1...v1.0.2) (2025-12-02)
 
 
